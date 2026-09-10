@@ -1,0 +1,24 @@
+name: enterprise_app
+description: "Al-Muhaidib Sanitary Ware & Ceramics Employee Portal"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  mobile_scanner: ^3.5.5
+  geolocator: ^10.1.0
+  local_auth: ^2.1.7
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
